@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <form class="login-box" onsubmit="return login(event)">
+            <h2>Welcome Back</h2>
+
+            <div class="input-group">
+                <input type="text" id="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label>Password</label>
+            </div>
+
+            <button class="btn">Login</button>
+            <p id="msg"></p>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
